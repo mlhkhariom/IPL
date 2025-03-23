@@ -13,10 +13,14 @@ function generateTVPage() {
     { name: "Star Sports 1 HD", url: "http://anistv.com:80/292494436004083/1593574628/124746" },
     { name: "Star Sports 2 HD", url: "http://anistv.com:80/292494436004083/1593574628/124744" },
     { name: "Willow Cricket", url: "http://anistv.com:80/292494436004083/1593574628/131891" },
-    { name: "Willow Cricket Xtra", url: "http://anistv.com:80/292494436004083/1593574628/131892" }
+    { name: "Willow Cricket Xtra", url: "http://anistv.com:80/292494436004083/1593574628/131892" },
+    { name: "Star Sports 1 FHD", url: "http://supersonictv.live:8080/995898/987125/85564" },
+    { name: "Star Sports 1 FHD Hindi", url: "http://supersonictv.live:8080/995898/987125/85565" },
+    { name: "Star Sports 2 FHD", url: "http://supersonictv.live:8080/995898/987125/85566" },
+    { name: "Star Sports Select 2 HD", url: "http://supersonictv.live:8080/995898/987125/85567" }
   ];
 
-  let channelListHTML = channels.map((ch, index) => 
+  let channelListHTML = channels.map(ch => 
     `<button onclick="playStream('${ch.url}')">${ch.name}</button>`
   ).join("<br>");
 
