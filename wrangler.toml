@@ -3,7 +3,3 @@ type = "javascript"
 account_id = "76cd338b79022e02985b198da023a0c4"
 workers_dev = true
 compatibility_date = "2025-03-23"
-
-# Optimize Worker Performance
-minify = true
-node_compat = true
