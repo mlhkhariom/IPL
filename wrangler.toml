@@ -3,4 +3,9 @@ type = "javascript"
 account_id = "76cd338b79022e02985b198da023a0c4"
 workers_dev = true
 compatibility_date = "2025-03-23"
+
+# Use new Node.js compatibility flag (Replaces node_compat)
 compatibility_flags = ["nodejs_compat"]
+
+# Minify Worker for Performance Optimization
+minify = true
